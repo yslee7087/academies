@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+    font-family: "Noto Sans KR", sans-serif;
+}
+header {
+    z-index: 10;
+    cursor: default;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border: 0px;
+    height: 60px;
+}
+h1 {
+    display: inline;
+    position: relative;
+    bottom: 8px;
+    left: 18px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(28, 209, 101);
+}
+header .web-logo {
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+nav {
+    z-index: 10;
+    background-color: white;
+    position: sticky;
+    top: 60px;
+    height: 50px;
+}
+nav ul {
+    height: 40px;
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav ul li {
+    cursor: pointer;
+    font-weight: 400;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+nav ul li:hover {
+    background-color: rgb(200, 200, 200);
+}

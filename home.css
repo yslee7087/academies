@@ -1,0 +1,34 @@
+main h2 {
+    margin: 0px;
+    color: white;
+    height: 300px;
+    line-height: 100px;
+}
+.intro img {
+    width: 100%;
+}
+.intro .introText {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+}
+.intro .introText p {
+    margin: 0px;
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+}
+main {
+    position: relative;
+    bottom: 100px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.main-container {
+    padding: 30px;
+}
+.main-container p {
+    margin: 0px;
+}
